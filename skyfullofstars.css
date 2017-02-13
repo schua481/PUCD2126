@@ -1,0 +1,58 @@
+
+
+
+h1{
+  font-family: "Futura";
+  font color: white;
+  font-size: 35px;
+
+}
+
+h2{
+  font-family: "Futura";
+  font color: white;
+  font-size: 35px;
+}
+
+
+h3{
+  font-family: "Futura"; 
+  font color: white;
+  font-size: 35px;
+}
+
+
+h4{
+font-family: "Futura";
+font color: white;
+font-size: 35px;
+}
+
+h5{
+  font-family: "Futura";
+  font color: white;
+  font-size: 35px;
+}
+
+h6{
+font-family: "Futura";
+font color: white;
+font-size: 35px;
+}
+
+
+
+body {
+    background-color: black;
+}
+
+
+
+#blinkingstar {
+
+    animation: blinker 1s linear infinite;
+  }
+
+  @keyframes blinker {
+    50% { opacity: 0; }
+  }
