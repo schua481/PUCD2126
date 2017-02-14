@@ -1,58 +1,70 @@
-
-
-
-h1{
-  font-family: "Futura";
-  font color: white;
-  font-size: 35px;
-
-}
-
-h2{
-  font-family: "Futura";
-  font color: white;
-  font-size: 35px;
-}
-
-
-h3{
-  font-family: "Futura"; 
-  font color: white;
-  font-size: 35px;
-}
-
-
-h4{
-font-family: "Futura";
-font color: white;
-font-size: 35px;
-}
-
-h5{
-  font-family: "Futura";
-  font color: white;
-  font-size: 35px;
-}
-
-h6{
-font-family: "Futura";
-font color: white;
-font-size: 35px;
+body{
+  background-color: black;
 }
 
 
 
-body {
-    background-color: black;
+
+
+#line1{
+  float: left;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+
+#line3{
+  float: left;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+
+#line5{
+  float: left;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+
+#line2 {
+  float: right;
+  padding-top: 50px;
+  padding-bottom: 40px;
 }
 
 
+#line4 {
+  float: right;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
 
-#blinkingstar {
+#line6 {
+  float: right;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
 
-    animation: blinker 1s linear infinite;
-  }
+#line7 {
+  float: left;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
 
-  @keyframes blinker {
-    50% { opacity: 0; }
-  }
+
+div {
+  opacity:0;
+  transition:opacity 1s linear;*
+}
+div:hover {
+  opacity:1;
+}
+
+
+p{
+  font-family: "Futura", sans-serif;
+    font-size: 45px;
+    color: white;
+    letter-spacing: .2px;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-bottom: 23px;
+}
