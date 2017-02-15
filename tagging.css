@@ -1,0 +1,40 @@
+*{
+  margin: 10px;
+  padding: 10px;
+}
+
+
+h1{
+  font-family: "Futura", sans-serif;
+  font-size: 60px;
+}
+
+#line1{
+  font-size: 50px;
+  font-family: "Futura", sans-serif;
+}
+
+p + p{
+  font-size: 25px;
+  font-family: "Avenir", sans-serif;
+}
+
+p ~ span{
+  font-family: "Futura", sans-serif;
+}
+
+p::first-line {
+    color: #ff0000;
+    font-variant: small-caps;
+}
+
+p::first-letter {
+    color: #ff0000;
+    font-size: xx-large;
+}
+
+
+p:hover{
+  color: white;
+  background-color: black;
+}
