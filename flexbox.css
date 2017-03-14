@@ -1,0 +1,104 @@
+.container {
+padding-top: 5px;
+  display: flex; /* or inline-flex */
+
+justify-content: center;
+
+
+
+
+
+}
+
+
+
+h1{
+
+font-family: "Didot", serif;
+font-size: 25px;
+align-content: right;
+
+}
+
+#giantletter{
+
+  top: 900px;
+bottom: 200px;
+  position: relative;
+
+
+
+}
+
+
+
+h2{
+font-family: "Didot", serif;
+font-size: 530px;
+color: yellow;
+  opacity: 0.3;
+  background-color:rgba(255, 255, 255, 0.59);
+   z-index:100;
+}
+
+
+#column1{
+  justify-content: center;
+  width: 300px;
+  padding-bottom: 200px;
+  -webkit-column-rule: 1px dotted #ddd;
+      -moz-column-rule: 1px dotted #ddd;
+           column-rule: 1px dotted #ddd;
+
+
+
+}
+
+
+#column2{
+  width: 300px;
+  padding-bottom: 200px;
+
+
+
+}
+
+
+
+
+p{
+  font-family: "Didot", serif;
+  font-size: 9px;
+
+
+
+}
+
+
+@media screen and (max-width:1000px)  {
+
+
+#column1 {width: 100%;}
+#column2 {width: 100%;}
+
+
+
+}
+
+@media screen (max-width:760px){
+  [id*="column1"] {
+      width: 50%;
+
+
+
+}
+
+
+
+@media screen (max-width:760px){
+  [id*="column2"] {
+      width: 50%;
+
+
+
+}
